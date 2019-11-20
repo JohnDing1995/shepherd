@@ -1,4 +1,6 @@
 # Shepherd
+[![Build Status](https://travis-ci.org/JohnDing1995/shepherd.svg?branch=master)](https://travis-ci.org/JohnDing1995/shepherd)
+
 *The next generation course building CI tool for A+*
 
 ## Architecture

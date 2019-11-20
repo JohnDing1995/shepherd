@@ -1,0 +1,20 @@
+language: python
+
+python:
+  - 3.6
+
+env:
+  - CODECOV_TOKEN="55debdd1-32e3-423b-ad99-b06b8f66c2b1"
+
+install:
+  - pip install -r requirements-roman.txt
+  - pip install -r requirements.txt
+  - pip install -r requirements-build.txt
+
+script:
+  - coverage erase
+  - coverage run test_shepherd.py && coverage html
+  - pylint --output-format=text apluslms_shepherd || true
+
+after_success:
+  - codecov
