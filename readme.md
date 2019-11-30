@@ -26,3 +26,6 @@ Handle push webhook in `GitHub` or `Gitlab`.
 * Define the scheduled task for key validation.
 ### Message Broker
 Message broker for updating frontend statues display in realtime, and also routing realtime log output to frontend.
+
+## How To Run
+See [HERE](https://github.com/JohnDing1995/run-shepherd-test)
